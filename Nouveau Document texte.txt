@@ -1,0 +1,10 @@
+1- Creer proxy sur le player pour gagner de l'argent en cliquant
+2- Faire fonctionner le bouton acheter
+3- Faire en sorte que le stagiaire rapporte de l'argent
+4- Créer dynamiquement les lignes du tableau en fcti des ressources du player	
+5- Gérer la sauvegarde du player
+6- Gérer le acheter ( 5, 10, 25)
+7- Bouton Auto
+8- 
+9- 
+10- 

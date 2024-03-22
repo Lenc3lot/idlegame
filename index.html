@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Idle Game</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="./style.css"/>
+	</head>
+	<body>
+		<header>
+			<div id="playerData">
+				<div id="playerStats">
+					<p>Argent : <span id="argent">0</span></p>
+					<p id="innovDisplay" style="display:none;">Innovation : <span id="celeb">0</span></p>
+					<p id="argTot" style="display:none;" >Argent Total : <span id="argentTotal">0</span></p>
+				</div>
+				<div>
+					<button id="prsBtn">Innover</button>
+					<button onclick="reset(true)">Reset</button>
+					<button id="autoBtn" style="background-color:red">Auto</button>
+				</div>
+			</div>
+		</header>
+		<section id="tabBureau">
+			<div>
+				<img id="devImg" onclick="dev(event)" src="./computer.png"/>
+				<p id="tutoTxt">Cliquez pour gagner de l'argent</p>
+			</div>
+		
+			<table id="resourcesTab" style="1px solid">
+				<tr>
+					<th>Nom</th>
+					<th>Coût</th>
+					<th>Apport par s</th>
+					<th>Montant</th>
+					<th>Acheter <select id="buyAmount">
+						<option selected value="1">x1</option>
+						<option value="5">x5</option>
+						<option value="10">x10</option>	
+						<option value="25">x25</option>
+					</select></th>
+				</tr>
+				
+				
+			</table>
+		</section>
+		<script src="game.js"></script>
+	</body>
+</html>
